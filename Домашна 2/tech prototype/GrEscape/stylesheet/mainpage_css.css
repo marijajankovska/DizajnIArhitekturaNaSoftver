@@ -1,0 +1,38 @@
+#title{
+    font-size: 10em;
+    font-family: 'ArsenicaTrial-Medium', serif;
+    font-weight: lighter;
+}
+#subtitle{
+    font-family: 'navbar font', cursive;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'ArsenicaTrial-Medium';
+    src: url("ArsenicaTrial-Regular.ttf");
+}
+@font-face {
+    font-family: 'navbar font';
+    src: url("coolvetica rg.otf");
+}
+body {
+    background-color: #e5b576;
+}
+#main{
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
+#navbarNavAltMarkup > div > a:nth-child(n) {
+    padding: 5px 70px;
+    font-family: 'navbar font', cursive;
+    font-size: 2em;
+    display: flex;
+}
+.navbar-collapse{
+    justify-content: center;
+    margin-bottom: 200px;
+}
+#navbarNavAltMarkup > div > a:nth-child(n):hover{
+    text-transform: lowercase;
+}
