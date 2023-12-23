@@ -1,0 +1,24 @@
+.card-header{
+    font-family: "Roboto-Medium";
+    margin-bottom: 10px;
+}
+.form-label{
+    font-family: "Roboto Thin";
+    margin-right: 5px;
+}
+.login-container{
+    width: 300px;
+}
+.mb-3{
+    width: 600px;
+    margin-bottom: 10px;
+}
+.newAccLink{
+    font-family: "Roboto Thin";
+    display: flex;
+    justify-content: center;
+
+}
+.newAccLink:hover{
+    color: #888888;
+}

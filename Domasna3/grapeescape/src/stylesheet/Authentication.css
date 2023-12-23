@@ -1,0 +1,15 @@
+/* Authentication.css */
+
+.signup-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+
+}
+
+.card {
+    width: 18rem;
+}
+
+/* Additional styling for card, form elements, etc. */
