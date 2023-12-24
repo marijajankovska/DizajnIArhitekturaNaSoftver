@@ -1,0 +1,37 @@
+#map{
+     width: 100%;
+    height: 900px;
+}
+.mapButton{
+
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 8px;
+        cursor: pointer;
+        border-radius: 16px;
+        font-family: "Roboto Thin", serif;
+        position: relative;
+        top: 5vh;
+    z-index: 1;
+
+}
+
+.mapButton:hover {
+    background-color: #e3c8bd;
+}
+#mapContainer{
+    position: relative;
+    top: 80px;
+}
+.mapboxgl-popup{
+    width: fit-content;
+}
+.mapboxgl-popup-content{
+    max-width: 1000px;
+    width: fit-content;
+}

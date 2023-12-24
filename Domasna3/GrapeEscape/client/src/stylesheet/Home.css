@@ -1,0 +1,53 @@
+.home_page{
+    background-image: url("front image.png");
+    height: 961px;
+
+
+
+}
+.title{
+        position: absolute;
+        top: 33%;
+        left: 9%;
+        color: white;
+}
+#title-front-page{
+    font-size: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arseneca, sans-serif;
+    font-weight: lighter;
+}
+#subtitle-front-page{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto Thin Italic", sans-serif;
+}
+.button{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+.button:hover {
+    background-color: #e3c8bd;
+}
+@font-face {
+    font-family: 'Arseneca';
+    src: url("fonts/ArsenicaTrial-Regular.ttf");
+}
+@font-face {
+    font-family: 'Roboto Thin Italic';
+    src: url("fonts/Roboto-ThinItalic.ttf");
+}
+#root > div > div > a{
+    padding-left: 0px;
+}
